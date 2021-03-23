@@ -8,14 +8,22 @@
           <v-col cols="12" sm="12" md="8">
             <div class="site-title">
               <h1>
-                Awesome software services for small & large businesses
+                Awe-inspiring software services for small & large
+                businesses
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique cumque ad eum, molestiae cum porro error soluta
-                inventore nostrum.
+                From creation to delivering software solutions for numerous
+                companies in almost every industry. Our clients get the
+                best with our prompt support during and after the project
+                completion. All is possible because of our passion,
+                expertise, and experience.
               </p>
-              <v-btn class="cab white--text pa-6" rounded elevation="5">
+              <v-btn
+                @click="$vuetify.goTo('#contact')"
+                class="cab white--text pa-6"
+                rounded
+                elevation="5"
+              >
                 Get in Touch
               </v-btn>
             </div>
@@ -57,9 +65,11 @@
           <hr class="blue" />
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos fugiat illo obcaecati possimus, tempore doloremque
-            assumenda.
+            We construct venture level custom programming arrangements that
+            engage organizations to unlock novelty and impact digital
+            transformation. We work from idea to code, and advancement to
+            arrangement ensuring cost, time and nature of programming
+            improvement is streamlined.
           </p>
         </div>
 
@@ -71,10 +81,14 @@
             <div class="service">
               <h3>Web Development & Designing</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Modi odit nisi sed molestias, deserunt voluptas. Tempora at
-                numquam doloribus explicabo necessitatibus harum voluptas
-                possimus! Minus nulla nemo animi incidunt. Sequi!
+                Our team of web designers delivers cutting-edge web design
+                solutions for enterprises, corporations, agencies and
+                individual requests. All of them are acquainted with the
+                best practices of art schools across the globe. We have a
+                solid understanding in providing professional web design
+                and development services for projects of different
+                complexities. We have developed many websites including
+                domain and hosting services to our clients worldwide.
               </p>
             </div>
           </v-col>
@@ -84,10 +98,14 @@
             <div class="service">
               <h3>Mobile App Development & Designing</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Modi odit nisi sed molestias, deserunt voluptas. Tempora at
-                numquam doloribus explicabo necessitatibus harum voluptas
-                possimus! Minus nulla nemo animi incidunt. Sequi!
+                With over 2 years of experience, we provide full-stack
+                mobile application development services as well as
+                custom-made mobile app development be it native or
+                cross-platform, data migration, and updating, & continued
+                maintenance. Be it a simple app or an enterprise-grade
+                multifaceted solution; we provide it timely serving
+                different kinds of business verticals containing startups,
+                agencies, and enterprises.
               </p>
             </div>
           </v-col>
@@ -103,10 +121,11 @@
             <div class="service">
               <h3>Desktop App Development & Designing</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Modi odit nisi sed molestias, deserunt voluptas. Tempora at
-                numquam doloribus explicabo necessitatibus harum voluptas
-                possimus! Minus nulla nemo animi incidunt. Sequi!
+                We build ground-up desktop applications; make hardware and
+                OS relevant desktop apps, and backend-enabled software. It
+                helps us attain an extremely productive end user setting.
+                Resulting in enhanced performance and productivity for our
+                clientele.
               </p>
             </div>
           </v-col>
@@ -116,10 +135,11 @@
             <div class="service">
               <h3>Chatbots & Automation Solutions</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Modi odit nisi sed molestias, deserunt voluptas. Tempora at
-                numquam doloribus explicabo necessitatibus harum voluptas
-                possimus! Minus nulla nemo animi incidunt. Sequi!
+                We develop and manage chatbots to systematize customer
+                service and marketing across online mediums to provide end
+                to solutions. They can act as virtual assistants for your
+                business needs as and when required. We help make chatbots
+                that create true omnichannel experiences.
               </p>
             </div>
           </v-col>
@@ -145,9 +165,13 @@
               <hr class="blue" />
               <h2>Get in Touch</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos fugiat illo obcaecati possimus, tempore
-                doloremque assumenda.
+                Do you want to get in touch with us? We’d love to hear from
+                you!
+                <br />
+                <br />
+                Drop us a line and a member and our team will get back to
+                you as soon as possible. We are sure we can help you find a
+                perfect solution.
               </p>
               <form
                 action="https://formkeep.com/f/396c0d710fc8"

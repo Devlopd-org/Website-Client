@@ -38,7 +38,7 @@
       > -->
       <v-btn
         class="cab white--text pa-6"
-        @click="contact = true"
+        @click="$vuetify.goTo('#contact')"
         rounded
         elevation="5"
       >
@@ -63,90 +63,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
-    <v-row justify="center">
-      <v-dialog v-model="contact" max-width="1600px">
-        <v-card>
-          <v-card-text>
-            <v-container>
-              <v-row>
-                <v-col cols="12" sm="12" md="4">
-                  <lottie-player
-                    src="https://assets7.lottiefiles.com/packages/lf20_bp1bwvhv.json"
-                    background="transparent"
-                    speed="1"
-                    loop
-                    autoplay
-                  ></lottie-player>
-                </v-col>
-                <v-col cols="12" sm="12" md="8">
-                  <div class="section-title">
-                    <hr class="blue" />
-                    <h2>Get in Touch</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Dignissimos fugiat illo obcaecati possimus,
-                      tempore doloremque assumenda.
-                    </p>
-                    <form
-                      action="https://formkeep.com/f/396c0d710fc8"
-                      accept-charset="UTF-8"
-                      enctype="multipart/form-data"
-                      method="POST"
-                    >
-                      <v-row>
-                        <v-col cols="12" sm="12" md="12">
-                          <v-text-field
-                            label="Full Name"
-                            outlined
-                            name="fullName"
-                            type="text"
-                            required
-                          ></v-text-field>
-                        </v-col>
-                      </v-row>
-                      <v-row>
-                        <v-col cols="12" sm="12" md="12">
-                          <v-text-field
-                            label="Email"
-                            outlined
-                            name="email"
-                            type="email"
-                            required
-                          ></v-text-field>
-                        </v-col>
-                      </v-row>
-                      <v-row>
-                        <v-col cols="12" sm="12" md="12">
-                          <v-textarea
-                            outlined
-                            name="message"
-                            label="Message"
-                            type="text"
-                            required
-                          ></v-textarea>
-                        </v-col>
-                      </v-row>
-                      <v-row>
-                        <v-col cols="12" sm="12" class="text-right">
-                          <v-btn
-                            rounded
-                            type="submit"
-                            color="blue"
-                            class="white--text"
-                            >Send <v-icon right>mdi-send</v-icon>
-                          </v-btn>
-                        </v-col>
-                      </v-row>
-                    </form>
-                  </div>
-                </v-col>
-              </v-row>
-            </v-container>
-          </v-card-text>
-        </v-card>
-      </v-dialog>
-    </v-row>
   </div>
 </template>
 
@@ -157,7 +73,6 @@ export default Vue.extend({
   data() {
     return {
       drawer: false,
-      contact: false,
     };
   },
 });
